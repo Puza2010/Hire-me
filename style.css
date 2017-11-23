@@ -1,0 +1,40 @@
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	background-color: black;
+	height: 50px;
+}
+
+header>div>p {
+	display: inline-block;
+	color: white;
+}
+
+header>div>ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+header>div>ul>li {
+	display: inline-block;	
+}
+
+header>div>ul>li>a {
+	line-height: 50px;
+	padding: 0 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header>div>ul>li>a:hover {
+	background-color: rgba(72, 72, 72, 0.9);
+}
