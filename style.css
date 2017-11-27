@@ -162,6 +162,7 @@ header div ul li a {
     text-align: center; }
 
   header div a {
+    float: none;
     display: none;
     margin: 0 auto; }
 
