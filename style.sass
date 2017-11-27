@@ -3,17 +3,78 @@
 body 
 	margin: 0 auto
 
+*
+	box-sizing: border-box
+
+.row::before, .row::after 
+	content: ''
+	display: table
+	clear: both
+
+.col-1 
+	width: 8.33%
+.col-2 
+	width: 16.66%
+.col-3 
+	width: 25%
+.col-4 
+	width: 33.33%
+.col-5 
+	width: 41.66%
+.col-6 
+	width: 50%
+.col-7 
+	width: 58.33%
+.col-8 
+	width: 66.66%
+.col-9 
+	width: 75%
+.col-10 
+	width: 83.33%
+.col-11 
+	width: 91.66%
+.col-12 
+	width: 100%
+
+.col-offset-0 
+	margin-left: 0
+.col-offset-1 
+	margin-left: 8.33%
+.col-offset-2 
+	margin-left: 16.66%
+.col-offset-3 
+	margin-left: 25%
+.col-offset-4 
+	margin-left: 33.33%
+.col-offset-5 
+	margin-left: 41.66%
+.col-offset-6 
+	margin-left: 50%
+.col-offset-7 
+	margin-left: 58.33%
+.col-offset-8 
+	margin-left: 66.66%
+.col-offset-9 
+	margin-left: 75%
+.col-offset-10 
+	margin-left: 83.33%
+.col-offset-11 
+	margin-left: 91.66%
+
 .container 
 	width: 100%
 	max-width: 1200px
 	margin: 0 auto
+
+h1 
+	font-size: 16px
 
 
 /* HEADER */ 
 
 header 
 	width: 100%
-	background-color: rgb(255,255,255)
+	background-color: rgb(245,245,245)
 	height: 70px
 	position: fixed
 	top: 0
@@ -84,18 +145,15 @@ header
 	background-size: cover
 	background-position: center
 
-.jumbotron 
-	h1 
-		font-size: 40px
-		font-weight: 500
-		color: black
-		font-family: 'Calligraffitti', cursive
-		letter-spacing: 0px
-		text-align: center
-		padding-top: 50vh
+.jumbotron h1
+	font-size: 40px
+	font-weight: 500
+	color: black
+	font-family: 'Calligraffitti', cursive
+	text-align: center
+	padding-top: 50vh
 
-.jumbotron 
-	button 
+.jumbotron button 
 		padding: 15px 30px
 		min-width: 200px
 		font-size: 16px
@@ -116,46 +174,22 @@ header
 .button 
 	text-align: center
 
+/* Responsive Section */
 
-.html 
-	width: 100%
-	height: 100vh
-	background-image: url("http://kodilla.com/static/lessons/blue-mountain.jpg")
+.responsive-image
+	margin-top: 50vh
+	height: 50vh
+	background-image: url("images/responsive.png")
 	background-size: cover
+	background-position: center
 
-*
-	box-sizing: border-box
+.responsive-section h1
+	font-size: 40px
+	font-weight: 500
+	color: black
+	font-family: 'Calligraffitti', cursive
+	text-align: center
 
-.row::before,
-.row::after 
-	content: ''
-	display: table
-	clear: both
-
-.col-1 
-	width: 8.33%
-.col-2 
-	width: 16.66%
-.col-3 
-	width: 25%
-.col-4 
-	width: 33.33%
-.col-5 
-	width: 41.66%
-.col-6 
-	width: 50%
-.col-7 
-	width: 58.33%
-.col-8 
-	width: 66.66%
-.col-9 
-	width: 75%
-.col-10 
-	width: 83.33%
-.col-11 
-	width: 91.66%
-.col-12 
-	width: 100%
 
 @media (max-width: 767px)
 
@@ -189,8 +223,7 @@ header
 		text-align: center
 		height: 70px
 
-	.jumbotron 
-		h1 
+	.jumbotron h1 
 		margin: 0 auto
 		font-size: 40px
 
@@ -202,6 +235,5 @@ header
 
 @media (min-width: 1400px)
 
-	.jumbotron 
-		h1 
+	.jumbotron h1, .responsive-section h1
 		font-size: 60px
