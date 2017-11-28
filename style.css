@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Calligraffitti");
+@import url("https://fonts.googleapis.com/css?family=Spectral+SC");
 body {
   margin: 0 auto; }
 
@@ -93,13 +94,13 @@ h1 {
 /* HEADER */
 header {
   width: 100%;
-  background-color: whitesmoke;
+  background-color: white;
   height: 70px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  border-bottom: solid 1px black; }
+  box-shadow: 0px 1px 5px grey; }
 
 header div a {
   float: left;
@@ -181,7 +182,42 @@ header div ul li a {
 .button {
   text-align: center; }
 
-/* Responsive Section */
+/* ABOUT ME SECTION */
+.about-section {
+  height: 100vh; }
+
+.about-section h1 {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  border-bottom: solid 2px #EAEEF1;
+  font-family: "Spectral SC", serif; }
+
+.left-box, .right-box {
+  background-color: #EAEEF1;
+  border: outset 1px black;
+  border-right: inset 1px black;
+  border-bottom: inset 1px black;
+  height: 40vh;
+  float: left;
+  font-family: "Spectral SC", serif; }
+  .left-box:hover, .right-box:hover {
+    border: solid 1px black;
+    transform: scale(1.1); }
+
+.arrows {
+  float: left;
+  text-align: center; }
+
+.fa-exchange {
+  line-height: 35vh;
+  color: grey; }
+
+.about-section h2 {
+  text-align: center; }
+
+/* RESPONSIVE SECTION */
 .responsive-image {
   margin-top: 0vh;
   height: 50vh;
@@ -213,7 +249,7 @@ header div ul li a {
 
   header div ul li {
     display: block;
-    background-color: whitesmoke;
+    background-color: white;
     border-bottom: solid 1px black;
     text-align: center; }
 
@@ -223,7 +259,7 @@ header div ul li a {
     margin: 0 auto; }
 
   #mobile {
-    background-color: whitesmoke;
+    background-color: white;
     border-bottom: solid 1px black;
     display: block;
     width: 100%;
