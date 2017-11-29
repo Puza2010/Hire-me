@@ -14,4 +14,8 @@ $(document).ready(function() {
 			$('#dropDown').slideDown();    
 		}
 	});
+
+	$('#github').click(function(){
+		window.location.href='https://github.com/Puza2010';
+	});
 });

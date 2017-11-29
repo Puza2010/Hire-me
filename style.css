@@ -161,7 +161,7 @@ header div ul li a {
   text-align: center;
   padding-top: 50vh; }
 
-.jumbotron button {
+.btn, .btn-takeMe {
   padding: 15px 30px;
   min-width: 200px;
   font-size: 16px;
@@ -175,7 +175,7 @@ header div ul li a {
   border-color: #000000;
   color: #000000;
   background-image: linear-gradient(90deg, #000000 50%, transparent 50%); }
-  .jumbotron button:hover {
+  .btn:hover, .btn-takeMe:hover {
     background-position: 0% 100%;
     color: white; }
 
@@ -195,6 +195,7 @@ header div ul li a {
   font-family: "Spectral SC", serif; }
 
 .left-box, .right-box {
+  padding: 0 20px;
   background-color: #EAEEF1;
   border: outset 1px black;
   border-right: inset 1px black;
@@ -205,6 +206,10 @@ header div ul li a {
   .left-box:hover, .right-box:hover {
     border: solid 1px black;
     transform: scale(1.1); }
+
+.btn-takeMe {
+  background-color: black;
+  color: white; }
 
 .arrows {
   float: left;
@@ -230,15 +235,48 @@ header div ul li a {
   height: 100vh; }
 
 .responsive-section h1 {
-  font-size: 40px;
+  font-size: 26px;
   font-weight: 500;
   color: black;
-  font-family: "Calligraffitti", cursive;
+  font-family: "Spectral SC", serif;
   text-align: center; }
 
 .responsive-section h2 {
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Spectral SC", serif; }
+
+/* PROJECTS SECTION */
+.project-section {
+  margin-top: 15vh;
+  height: 100vh; }
+
+.project-section h1 {
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+  font-family: "Spectral SC", serif;
   text-align: center; }
+
+.project1, .project2, .project3, .project4 {
+  border: solid 1px black;
+  margin-top: 5vh;
+  height: 30vh;
+  background-image: url("images/game.png");
+  background-size: cover;
+  background-position: center;
+  float: left; }
+
+.project2 {
+  float: right;
+  background-image: url("images/quote.png"); }
+
+.project3 {
+  background-image: url("images/kanban.png"); }
+
+.project4 {
+  background-image: url("images/gif.png"); }
 
 @media (max-width: 767px) {
   #dropdown {
