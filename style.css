@@ -157,7 +157,7 @@ header div ul li a {
   font-size: 40px;
   font-weight: 500;
   color: black;
-  font-family: "Calligraffitti", cursive;
+  font-family: "Spectral SC", serif;
   text-align: center;
   padding-top: 50vh; }
 
@@ -182,14 +182,14 @@ header div ul li a {
 .button {
   text-align: center; }
 
-/* ABOUT ME SECTION */
-.about-section {
+/* CREDENSIALS SECTION */
+.credensials {
   height: 100vh; }
 
-.about-section h1 {
+.credensials h1 {
   font-size: 26px;
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 10vh;
   margin-bottom: 10vh;
   border-bottom: solid 2px #EAEEF1;
   font-family: "Spectral SC", serif; }
@@ -219,8 +219,16 @@ header div ul li a {
   line-height: 35vh;
   color: grey; }
 
-.about-section h2 {
+.credensials h2 {
   text-align: center; }
+
+.logo {
+  margin-top: 55vh;
+  font-family: "Spectral SC", serif;
+  text-align: center; }
+
+.logo img {
+  height: 5vh; }
 
 /* RESPONSIVE SECTION */
 .responsive-image {
@@ -277,6 +285,52 @@ header div ul li a {
 
 .project4 {
   background-image: url("images/gif.png"); }
+
+/* ABOUT SECTION */
+.about {
+  padding-top: 10vh;
+  height: 100vh;
+  background-color: #EAEEF1;
+  box-shadow: 0px 2px 5px 0px grey; }
+
+.text {
+  float: left;
+  padding-top: 10vh; }
+
+.about h1 {
+  padding-top: 10vh;
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+  font-family: "Spectral SC", serif;
+  text-align: center; }
+
+.about p {
+  margin: 0 0 0 10vh;
+  font-size: 20px;
+  font-family: "Spectral SC", serif; }
+
+.myPhoto {
+  margin-top: 10vh;
+  float: left;
+  background-image: url("images/me.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center; }
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: white;
+  height: 70px; }
+
+footer p {
+  margin-left: 20px;
+  height: 70px;
+  line-height: 70px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase; }
 
 @media (max-width: 767px) {
   #dropdown {
