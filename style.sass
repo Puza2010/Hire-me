@@ -160,22 +160,22 @@ header
 	padding-top: 50vh
 
 .btn 
-		padding: 15px 30px
-		min-width: 200px
-		font-size: 16px
-		border-radius: 10px
-		cursor: pointer
-		background-color: inherit
-		border: 2px solid
-		background-position: 100% 0%
-		background-size: 300%
-		transition: 1s
-		border-color: #000000
-		color: #000000
-		background-image: linear-gradient(90deg, #000000 50%, transparent 50%)
-		&:hover
-			background-position: 0% 100%
-			color: white
+	padding: 15px 30px
+	min-width: 200px
+	font-size: 16px
+	border-radius: 10px
+	cursor: pointer
+	background-color: inherit
+	border: 2px solid
+	background-position: 100% 0%
+	background-size: 300%
+	transition: 1s
+	border-color: #000000
+	color: #000000
+	background-image: linear-gradient(90deg, #000000 50%, transparent 50%)
+	&:hover
+		background-position: 0% 100%
+		color: white
 
 .button 
 	text-align: center
@@ -188,8 +188,8 @@ header
 .credensials h1
 	font-size: 26px
 	text-align: center
-	margin-top: 10vh
-	margin-bottom: 10vh
+	margin-top: 15vh
+	margin-bottom: 5vh
 	border-bottom: solid 2px $grey
 	font-family: $simple
 
@@ -223,7 +223,7 @@ header
 	text-align: center
 
 .logo
-	margin-top: 55vh
+	margin-top: 47vh
 	font-family: $simple
 	text-align: center
 
@@ -269,18 +269,21 @@ header
 	font-family: $simple
 	text-align: center
 
+.project-div
+	float: left
+	margin-bottom: 10vh
+
 .project1
-	border: solid 1px black
-	margin-top: 5vh
-	height: 30vh
+	margin: 0 auto
 	background-image: url("images/game.png")
 	background-size: cover
 	background-position: center
-	float: left
+	width: 25vw
+	height: 15vw
+	border: solid 1px black
 
 .project2
 	@extend .project1
-	float: right
 	background-image: url("images/quote.png")
 
 .project3
@@ -301,10 +304,9 @@ header
 
 .text
 	float: left
-	padding-top: 10vh
 
 .about h1
-	padding-top: 10vh
+	padding-top: 15vh
 	font-size: 26px
 	font-weight: 500
 	color: black
@@ -313,11 +315,11 @@ header
 
 .about p
 	margin: 0 0 0 10vh
-	font-size: 20px
+	font-size: 16px
 	font-family: $simple
 
 .myPhoto
-	margin-top: 10vh
+	padding-top: 10vh
 	float: left
 	background-image: url("images/me.jpg")
 	height: 50vh
@@ -330,15 +332,19 @@ footer
 	width: 100%
 	background-color: rgb(255,255,255)
 	height: 70px
+	box-shadow: 0px -2px 5px 0px grey
 
 footer 
-	p
+	a
 		margin-left: 20px
 		height: 70px
 		line-height: 70px
 		color: black
 		text-decoration: none
 		text-transform: uppercase
+
+.footer
+	text-align: center
 
 @media (max-width: 767px)
 

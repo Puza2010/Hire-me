@@ -189,8 +189,8 @@ header div ul li a {
 .credensials h1 {
   font-size: 26px;
   text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
   border-bottom: solid 2px #EAEEF1;
   font-family: "Spectral SC", serif; }
 
@@ -223,7 +223,7 @@ header div ul li a {
   text-align: center; }
 
 .logo {
-  margin-top: 55vh;
+  margin-top: 47vh;
   font-family: "Spectral SC", serif;
   text-align: center; }
 
@@ -267,17 +267,20 @@ header div ul li a {
   font-family: "Spectral SC", serif;
   text-align: center; }
 
+.project-div {
+  float: left;
+  margin-bottom: 10vh; }
+
 .project1, .project2, .project3, .project4 {
-  border: solid 1px black;
-  margin-top: 5vh;
-  height: 30vh;
+  margin: 0 auto;
   background-image: url("images/game.png");
   background-size: cover;
   background-position: center;
-  float: left; }
+  width: 25vw;
+  height: 15vw;
+  border: solid 1px black; }
 
 .project2 {
-  float: right;
   background-image: url("images/quote.png"); }
 
 .project3 {
@@ -294,11 +297,10 @@ header div ul li a {
   box-shadow: 0px 2px 5px 0px grey; }
 
 .text {
-  float: left;
-  padding-top: 10vh; }
+  float: left; }
 
 .about h1 {
-  padding-top: 10vh;
+  padding-top: 15vh;
   font-size: 26px;
   font-weight: 500;
   color: black;
@@ -307,11 +309,11 @@ header div ul li a {
 
 .about p {
   margin: 0 0 0 10vh;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Spectral SC", serif; }
 
 .myPhoto {
-  margin-top: 10vh;
+  padding-top: 10vh;
   float: left;
   background-image: url("images/me.jpg");
   height: 50vh;
@@ -322,15 +324,19 @@ header div ul li a {
 footer {
   width: 100%;
   background-color: white;
-  height: 70px; }
+  height: 70px;
+  box-shadow: 0px -2px 5px 0px grey; }
 
-footer p {
+footer a {
   margin-left: 20px;
   height: 70px;
   line-height: 70px;
   color: black;
   text-decoration: none;
   text-transform: uppercase; }
+
+.footer {
+  text-align: center; }
 
 @media (max-width: 767px) {
   #dropdown {
