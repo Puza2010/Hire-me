@@ -250,6 +250,7 @@ header div ul li a {
   margin-bottom: 10vh; }
 
 .project1, .project2, .project3, .project4 {
+  cursor: pointer;
   margin: 0 auto;
   background-image: url("images/game.png");
   background-size: cover;

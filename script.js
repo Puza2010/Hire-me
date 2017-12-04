@@ -16,6 +16,22 @@ $(document).ready(function() {
 		}
 	});
 
+	$('.project1').click(function(){
+		window.location.href ='projects/game/index.html';
+	});
+
+	$('.project2').click(function(){
+		window.location.href ='projects/quotes/index.html';
+	});
+
+	$('.project3').click(function(){
+		window.location.href ='projects/kanban/index.html';
+	});
+
+	$('.project4').click(function(){
+		window.location.href ='projects/gif/index.html';
+	});
+
 	$('#github').click(function(){
 		window.location.href='https://github.com/Puza2010';
 	});
