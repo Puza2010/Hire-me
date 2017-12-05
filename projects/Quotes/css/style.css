@@ -1,11 +1,11 @@
 body {
-	background-color: #38C4F2;
+	background-color: white;
 	text-align: center;
 }
 
 h1 {
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 div {
@@ -13,15 +13,15 @@ div {
 }
 
 button {
-	background-color: #38C4F2;
+	cursor: pointer;
+	background-color: black;
 	color: white;
-	border: 1px white solid;
-	width: 400px;
+	width: 200px;
 	height: 50px;
 }
 
 .tweet, .quote, .author {
-	color: white;
+	color: black;
 }
 
 .tweet {
