@@ -17,19 +17,19 @@ $(document).ready(function() {
 	});
 
 	$('.project1').click(function(){
-		window.open('https://puza2010.github.io/Game-Project/');
+		window.open('https://puza2010.github.io/Project-Game/');
 	});
 
 	$('.project2').click(function(){
-		window.open('projects/quotes/index.html');
+		window.open('https://puza2010.github.io/Project-Quotes/');
 	});
 
 	$('.project3').click(function(){
-		window.open('projects/kanban/index.html');
+		window.open('https://puza2010.github.io/Project-Kanban/');
 	});
 
 	$('.project4').click(function(){
-		window.open('projects/gif/index.html');
+		window.open('https://puza2010.github.io/Project-Gif/');
 	});
 
 	$('#github').click(function(){
