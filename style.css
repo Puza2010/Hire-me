@@ -116,12 +116,18 @@ header div ul {
   float: right;
   margin: 0;
   padding: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  border: none;
+  outline: none; }
 
 header div ul li {
+  border: none;
+  outline: none;
   display: inline-block; }
 
 header div ul li a {
+  border: none;
+  outline: none;
   line-height: 70px;
   padding: 0 20px;
   display: block;
