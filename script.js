@@ -17,7 +17,7 @@ $(document).ready(function() {
 	});
 
 	$('.project1').click(function(){
-		window.location.href='projects/game/index.html';
+		window.open('https://puza2010.github.io/Game-Project/');
 	});
 
 	$('.project2').click(function(){
