@@ -17,7 +17,7 @@ $(document).ready(function() {
 	});
 
 	$('.project1').click(function(){
-		window.open('projects/game/index.html');
+		window.location.href='projects/game/index.html';
 	});
 
 	$('.project2').click(function(){
