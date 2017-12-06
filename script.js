@@ -4,17 +4,17 @@ $(document).ready(function() {
 		$('html, body').animate({
 			scrollTop: $( $(this).attr('href') ).offset().top
 		}, 500);
-	return false,
-		$('#dropDown').slideUp();
+	return false;
+	//	$('#dropDown').slideUp();
 	});
 
-	$('#mobile').click(function(){
+/*	$('#mobile').click(function(){
 		if($('#dropDown').is(':visible')) {
 			$('#dropDown').slideUp();
 		} else {
 			$('#dropDown').slideDown();    
 		}
-	});
+	}); */
 
 	$('.project1').click(function(){
 		window.open('https://puza2010.github.io/Project-Game/');
