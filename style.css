@@ -252,7 +252,6 @@ header div ul li a {
 
 .project-section h1 {
   font-size: 26px;
-  font-weight: 500;
   color: black;
   font-family: "Robot", sans-serif;
   text-align: center; }
@@ -292,7 +291,6 @@ header div ul li a {
 .about h1 {
   padding-top: 5vh;
   font-size: 26px;
-  font-weight: 500;
   color: black;
   font-family: "Robot", sans-serif;
   text-align: center; }
@@ -475,16 +473,21 @@ footer ul li a {
 
   .left-box, .right-box {
     height: auto;
-    display: block; }
+    display: block;
+    margin-bottom: 5px; }
 
   .arrows {
     display: none; }
 
   .arrows-mobile {
+    text-align: center;
+    clear: both;
     display: block;
     height: 100px; }
 
   .logo {
+    padding-top: 10px;
+    clear: both;
     display: block; }
 
   /* PROJECTS SECTION */
