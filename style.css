@@ -206,7 +206,7 @@ header div ul li a {
   outline-style: solid;
   outline-color: black;
   outline-width: 1px;
-  height: 40vh;
+  height: 45vh;
   float: left;
   font-family: "Roboto", sans-serif; }
   .left-box:hover, .right-box:hover {
@@ -215,7 +215,8 @@ header div ul li a {
     outline-width: 2px; }
 
 .left-box p, .right-box p {
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px; }
 
 .btn-takeMe {
   background-color: inherit;
@@ -310,7 +311,7 @@ header div ul li a {
 
 .about p {
   margin: 0 10vh;
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Roboto Condensed", sans-serif; }
 
 .myPhoto {
