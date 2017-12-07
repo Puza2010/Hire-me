@@ -111,7 +111,8 @@ header div a {
   line-height: 70px;
   color: black;
   text-decoration: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
 header div ul {
   float: right;
@@ -125,23 +126,31 @@ header div ul li {
 
 header div ul li a {
   font-family: "Roboto Condensed", sans-serif;
+  position: relative;
   line-height: 70px;
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
   display: block;
-  width: 100px;
   color: black;
+  letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
   background-position: 0% 100%;
   background-size: 300%;
   transition: 1s; }
-  header div ul li a:hover {
-    background-image: linear-gradient(270deg, #000000 50%, transparent 50%);
-    background-position: 100% 0%;
-    color: white; }
+  header div ul li a:after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid black;
+    transition: 0.4s; }
+  header div ul li a:hover:after {
+    width: 100%; }
 
 #mobile {
+  font-family: "Roboto Condensed", sans-serif;
   display: none;
   border: none;
   background-color: white;
@@ -160,6 +169,7 @@ header div ul li a {
   background-position: center; }
 
 .jumbotron h1 {
+  letter-spacing: 1px;
   font-size: 40px;
   font-weight: normal;
   color: black;
@@ -167,43 +177,30 @@ header div ul li a {
   text-align: center;
   padding-top: 55vh; }
 
-.btn, .btn-takeMe {
+.btn {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   padding: 15px 30px;
   min-width: 200px;
   font-size: 16px;
-  border-radius: 0px;
-  cursor: pointer;
-  background-color: inherit;
-  border: 1px solid;
-  background-position: 0% 100%;
-  background-size: 300%;
-  transition: 1s;
-  border-color: #000000;
-  color: #000000;
-  background-image: linear-gradient(270deg, #000000 50%, transparent 50%); }
-  .btn:hover, .btn-takeMe:hover {
-    background-position: 100% 0%;
-    color: white; }
+  letter-spacing: 2px; }
 
 .button {
   text-align: center; }
 
 /* CREDENSIALS SECTION */
-.credensials {
-  height: 100vh; }
-
 .credensials h1 {
-  font-size: 26px;
+  font-size: 32px;
+  letter-spacing: 3px;
   text-align: center;
   margin-top: 15vh;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   border-bottom: solid 2px #EAEEF1;
   font-family: "Roboto", sans-serif; }
 
 .left-box, .right-box {
-  margin-bottom: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10vh;
   padding: 0 30px;
   background-color: #EAEEF1;
   outline-style: solid;
@@ -219,22 +216,23 @@ header div ul li a {
 
 .left-box p, .right-box p {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+  letter-spacing: 1px; }
 
-.btn-takeMe {
-  background-color: inherit;
-  color: black;
-  margin-bottom: 10px;
-  background-position: 0% 100%;
-  background-size: 300%;
-  transition: 1s;
-  border-color: #000000;
-  color: #000000;
-  background-image: linear-gradient(270deg, #000000 50%, transparent 50%); }
-  .btn-takeMe:hover {
-    background-position: 100% 0%;
-    color: white; }
-
+/* .btn-takeMe
+ * @extend .btn
+ * background-color: inherit
+ * color: black
+ * margin-bottom: 10px
+ * background-position: 0% 100%
+ * background-size: 300%
+ * transition: 1s
+ * border-color: #000000
+ * color: #000000
+ * background-image: linear-gradient(270deg, #000000 50%, transparent 50%)
+ * &:hover
+ * 	background-position: 100% 0%
+ * 	color: white */
 .arrows {
   float: left;
   text-align: center; }
@@ -247,29 +245,38 @@ header div ul li a {
   color: grey; }
 
 .credensials h2 {
+  letter-spacing: 2px;
   text-align: center; }
 
 .logo {
   font-family: "Roboto", sans-serif;
   text-align: center; }
 
+.logo h2 {
+  font-size: 28px;
+  padding-top: 5vh; }
+
 .logo img {
   height: 80px; }
 
 /* PROJECTS SECTION */
 .project-section {
-  margin-top: 15vh;
-  height: 100vh; }
+  margin-top: 10vh;
+  padding-top: 5vh;
+  height: 100vh;
+  background-color: #5b5b59; }
 
 .project-section h1 {
-  font-size: 26px;
-  color: black;
+  letter-spacing: 3px;
+  border-bottom: solid 2px #EAEEF1;
+  font-size: 32px;
+  color: white;
   font-family: "Roboto", sans-serif;
   text-align: center; }
 
 .project-div {
   float: left;
-  margin-bottom: 10vh; }
+  margin-bottom: 5vh; }
 
 .project1, .project2, .project3, .project4 {
   cursor: pointer;
@@ -306,13 +313,16 @@ header div ul li a {
   float: left; }
 
 .about h1 {
+  margin-top: 0;
+  letter-spacing: 3px;
   padding-top: 5vh;
-  font-size: 26px;
+  font-size: 32px;
   color: black;
   font-family: "Roboto", sans-serif;
   text-align: center; }
 
 .about p {
+  letter-spacing: 1px;
   margin: 0 10vh;
   font-size: 22px;
   font-family: "Roboto Condensed", sans-serif; }
@@ -320,7 +330,7 @@ header div ul li a {
 .myPhoto {
   float: right;
   width: 50vh;
-  height: auto; }
+  height: 80%; }
 
 /* FOOTER */
 footer {
@@ -337,6 +347,7 @@ footer {
   list-style-type: none; }
 
 .a-contact {
+  letter-spacing: 2px;
   font-family: "Roboto Condensed", sans-serif;
   line-height: 70px;
   display: block;
@@ -356,22 +367,28 @@ footer ul li {
 
 footer ul li a {
   font-family: "Roboto Condensed", sans-serif;
+  position: relative;
   line-height: 70px;
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
-  width: 100px;
   display: block;
   color: black;
+  letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
   background-position: 0% 100%;
   background-size: 300%;
-  transition: 1s;
-  color: #000000; }
-  footer ul li a:hover {
-    background-image: linear-gradient(270deg, #000000 50%, transparent 50%);
-    background-position: 100% 0%;
-    color: white; }
+  transition: 1s; }
+  footer ul li a:after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 0%;
+    border-bottom: 1px solid black;
+    transition: 0.4s; }
+  footer ul li a:hover:after {
+    width: 100%; }
 
 @media (max-width: 767px) {
   .col-s-1 {
@@ -470,7 +487,8 @@ footer ul li a {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    height: 70px; }
+    height: 70px;
+    font-family: "Roboto Condensed", sans-serif; }
 
   .only-mobile {
     display: block; }

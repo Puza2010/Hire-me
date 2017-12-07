@@ -37,4 +37,8 @@ $(document).ready(function() {
 	$('#github').click(function(){
 		window.open('https://github.com/Puza2010');
 	});
+
+	$('#github2').click(function(){
+		window.open('https://github.com/Puza2010');
+	});
 });
