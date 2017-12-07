@@ -274,6 +274,8 @@ header div ul li a {
   width: 25vw;
   height: 15vw;
   border: solid 1px black; }
+  .project1:hover, .project2:hover, .project3:hover, .project4:hover {
+    border: solid 2px black; }
 
 .project2 {
   background-image: url("images/quote.png"); }
