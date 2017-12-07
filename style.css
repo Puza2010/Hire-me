@@ -203,14 +203,16 @@ header div ul li a {
   margin-bottom: 20px;
   padding: 0 30px;
   background-color: #EAEEF1;
-  border: outset 1px black;
-  border-right: inset 1px black;
-  border-bottom: inset 1px black;
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 1px;
   height: 40vh;
   float: left;
   font-family: "Roboto", sans-serif; }
   .left-box:hover, .right-box:hover {
-    border: solid 2px black; }
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px; }
 
 .left-box p, .right-box p {
   font-family: "Roboto Condensed", sans-serif; }
@@ -273,9 +275,13 @@ header div ul li a {
   background-position: center;
   width: 25vw;
   height: 15vw;
-  border: solid 1px black; }
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 1px; }
   .project1:hover, .project2:hover, .project3:hover, .project4:hover {
-    border: solid 2px black; }
+    outline: 2px;
+    outline-style: solid;
+    outline-color: black; }
 
 .project2 {
   background-image: url("images/quote.png"); }

@@ -201,14 +201,16 @@ header
 	margin-bottom: 20px
 	padding: 0 30px
 	background-color: $grey
-	border: outset 1px black
-	border-right: inset 1px black
-	border-bottom: inset 1px black
+	outline-style: solid
+	outline-color: black
+	outline-width: 1px
 	height: 40vh
 	float: left
 	font-family: $intro
 	&:hover
-		border: solid 2px black
+		outline-style: solid
+		outline-color: black
+		outline-width: 2px
 
 .left-box p, .right-box p
 	font-family: $simple
@@ -273,9 +275,13 @@ header
 	background-position: center
 	width: 25vw
 	height: 15vw
-	border: solid 1px black
+	outline-style: solid
+	outline-color: black
+	outline-width: 1px
 	&:hover
-		border: solid 2px black
+		outline: 2px
+		outline-style: solid
+		outline-color: black
 
 .project2
 	@extend .project1
