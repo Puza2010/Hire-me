@@ -120,13 +120,16 @@ header div ul {
   list-style-type: none; }
 
 header div ul li {
-  display: inline-block; }
+  display: inline-block;
+  text-align: center; }
 
 header div ul li a {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 70px;
-  padding: 0 20px;
+  padding: 0;
+  margin: 0;
   display: block;
+  width: 100px;
   color: black;
   text-decoration: none;
   text-transform: uppercase;
@@ -348,12 +351,15 @@ footer ul {
   list-style-type: none; }
 
 footer ul li {
-  display: inline-block; }
+  display: inline-block;
+  text-align: center; }
 
 footer ul li a {
   font-family: "Roboto Condensed", sans-serif;
   line-height: 70px;
-  padding: 0 20px;
+  padding: 0;
+  margin: 0;
+  width: 100px;
   display: block;
   color: black;
   text-decoration: none;
