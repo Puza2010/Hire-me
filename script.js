@@ -5,16 +5,18 @@ $(document).ready(function() {
 			scrollTop: $( $(this).attr('href') ).offset().top
 		}, 500);
 	return false;
-	//	$('#dropDown').slideUp();
 	});
 
-/*	$('#mobile').click(function(){
+	$('#mobile').click(function(){
 		if($('#dropDown').is(':visible')) {
 			$('#dropDown').slideUp();
 		} else {
 			$('#dropDown').slideDown();    
 		}
-	}); */
+		$('a').click(function(){
+			$('#dropDown').slideUp();
+		});
+	}); 
 
 	$('.project1').click(function(){
 		window.open('https://puza2010.github.io/Project-Game/');
