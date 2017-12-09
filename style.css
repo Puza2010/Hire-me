@@ -799,14 +799,20 @@ footer ul li a {
 
   /* HEADER */
   header {
-    height: 110px; }
+    height: 110px;
+    padding: 0;
+    margin: 0; }
 
   header div a {
+    padding: 0;
+    margin: 0;
     font-size: 24px;
     height: 110px;
     line-height: 110px; }
 
   header div ul li a {
+    padding: 0;
+    margin: 0;
     font-size: 24px;
     height: 110px;
     line-height: 110px; }
@@ -870,15 +876,21 @@ footer ul li a {
   .a-contact {
     font-size: 24px;
     height: 110px;
-    line-height: 110px; }
+    line-height: 110px;
+    padding: 0;
+    margin: 0; }
 
   footer {
     height: 110px;
-    line-height: 110px; }
+    line-height: 110px;
+    padding: 0;
+    margin: 0; }
 
   footer div ul li a {
     font-size: 24px;
     height: 110px;
-    line-height: 110px; } }
+    line-height: 110px;
+    padding: 0;
+    margin: 0; } }
 
 /*# sourceMappingURL=style.css.map */
