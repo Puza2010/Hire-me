@@ -5,11 +5,19 @@ $grey: #EAEEF1
 $simple: 'Roboto Condensed', sans-serif
 $intro: 'Roboto', sans-serif
 
+*
+	box-sizing: border-box
+
 body 
 	margin: 0 auto
 
-*
-	box-sizing: border-box
+h1 
+	font-size: 16px
+
+.container 
+	width: 100%
+	max-width: 1200px
+	margin: 0 auto
 
 .row::before, .row::after 
 	content: ''
@@ -65,15 +73,6 @@ body
 	margin-left: 83.33%
 .col-offset-11 
 	margin-left: 91.66%
-
-.container 
-	width: 100%
-	max-width: 1200px
-	margin: 0 auto
-
-h1 
-	font-size: 16px
-
 
 /* HEADER */ 
 
@@ -465,6 +464,8 @@ footer
 	.col-offset-s-11 
 		margin-left: 91.66%
 
+	/* HEADER */
+
 	header
 		div
 			ul
@@ -721,6 +722,8 @@ footer
 	.col-offset-s-11 
 		margin-left: 91.66%
 
+	/* CREDENSIALS SECTION */
+
 	.left-box, .right-box
 		height: auto
 		display: block
@@ -740,12 +743,11 @@ footer
 		clear: both
 		display: block
 
+	/* ABOUT SECTION */
+
 	.about
 		height: auto
 		overflow: auto
-
-@media(min-width: 1200px) and (max-width: 1399px)
-
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width:1920px)
 	/* High resolution phones and tablets */
@@ -774,22 +776,28 @@ footer
 	.col-m-12 
 		width: 100%
 
+	/* HEADER */
+
 	header
-		height: 140px
+		height: 110px
 
 	header
 		div
 			a
-				height: 140px
-				line-height: 140px
+				font-size: 24px
+				height: 110px
+				line-height: 110px
 
 	header
 		div
 			ul
 				li
 					a
-						height: 140px
-						line-height: 140px
+						font-size: 24px
+						height: 110px
+						line-height: 110px
+
+	/* START SECTION */
 
 	.jumbotron h1
 		font-size: 80px
@@ -797,7 +805,14 @@ footer
 	.btn
 		font-size: 60px
 
+	/* CREDENSIALS SECTION */
 
+	.credensials
+		margin-top: 5vh
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+	.credensials h1
+		font-size: 48px
+
+	.left-box p, .right-box p
+		font-size: 30px
 	
