@@ -231,20 +231,6 @@ header div ul li a {
   font-size: 20px;
   letter-spacing: 1px; }
 
-/* .btn-takeMe
- * @extend .btn
- * background-color: inherit
- * color: black
- * margin-bottom: 10px
- * background-position: 0% 100%
- * background-size: 300%
- * transition: 1s
- * border-color: #000000
- * color: #000000
- * background-image: linear-gradient(270deg, #000000 50%, transparent 50%)
- * &:hover
- * 	background-position: 100% 0%
- * 	color: white */
 .arrows {
   float: left;
   text-align: center; }
