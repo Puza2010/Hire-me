@@ -830,7 +830,9 @@ footer ul li a {
     font-size: 80px; }
 
   .btn {
-    font-size: 60px; }
+    font-weight: lighter;
+    font-size: 60px;
+    padding: 30px 80px; }
 
   /* CREDENSIALS SECTION */
   .credensials {
