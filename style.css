@@ -477,7 +477,7 @@ footer ul li a {
 
   /* HEADER */
   header div ul li a:after {
-    border-bottom: 0px; }
+    border-bottom: 0; }
 
   #dropdown {
     display: none; }
@@ -811,6 +811,9 @@ footer ul li a {
   .col-m-12 {
     width: 100%; }
 
+  * {
+    width: 100vh; }
+
   /* HEADER */
   header {
     height: 110px; }
@@ -824,6 +827,8 @@ footer ul li a {
     font-size: 24px;
     height: 110px;
     line-height: 110px; }
+    header div ul li a:after {
+      border-bottom: 0; }
 
   /* START SECTION */
   .jumbotron h1 {
@@ -842,6 +847,19 @@ footer ul li a {
     font-size: 48px; }
 
   .left-box p, .right-box p {
-    font-size: 30px; } }
+    font-size: 30px; }
+
+  /* FOOTER */
+  .a-contact {
+    height: 110px;
+    line-height: 110px; }
+
+  footer {
+    height: 110px;
+    line-height: 110px; }
+
+  footer div ul li a {
+    height: 110px;
+    line-height: 110px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -472,7 +472,7 @@ footer
 				li
 					a 
 						&:after
-							border-bottom: 0px
+							border-bottom: 0
 
 	#dropdown 
 		display: none
@@ -776,6 +776,9 @@ footer
 	.col-m-12 
 		width: 100%
 
+	*
+		width: 100vh
+
 	/* HEADER */
 
 	header
@@ -796,6 +799,8 @@ footer
 						font-size: 24px
 						height: 110px
 						line-height: 110px
+						&:after
+							border-bottom: 0
 
 	/* START SECTION */
 
@@ -818,3 +823,20 @@ footer
 	.left-box p, .right-box p
 		font-size: 30px
 	
+	/* FOOTER */
+
+	.a-contact
+		height: 110px
+		line-height: 110px
+
+	footer
+		height: 110px
+		line-height: 110px
+
+	footer
+		div
+			ul
+				li
+					a
+						height: 110px
+						line-height: 110px
