@@ -845,7 +845,7 @@ footer ul li a {
     font-size: 30px; }
 
   .arrows {
-    margin: 50px 0; }
+    padding: 50px 0; }
 
   .logo h2 {
     font-size: 40px; }
@@ -870,6 +870,7 @@ footer ul li a {
 
   .myPhoto {
     float: none;
+    text-align: center;
     margin: 0 auto;
     height: auto; }
 
