@@ -800,16 +800,16 @@ footer ul li a {
   /* HEADER */
   header {
     height: 110px;
-    padding: 0; }
+    margin: 0; }
 
   header div a {
     font-size: 24px;
     height: 110px;
     line-height: 110px;
-    padding: 0; }
+    margin: 0; }
 
   header div ul li a {
-    padding: 0;
+    margin: 0;
     font-size: 24px;
     height: 110px;
     line-height: 110px; }
@@ -849,7 +849,7 @@ footer ul li a {
 
   /* PROJECTS SECTION */
   .project-section {
-    margin-top: 5vh; }
+    margin-top: 10vh; }
 
   .project-section h1 {
     font-size: 48px; }
@@ -874,15 +874,15 @@ footer ul li a {
     font-size: 24px;
     height: 110px;
     line-height: 110px;
-    padding: 0; }
+    margin: 0; }
 
   footer {
     height: 110px;
     line-height: 110px;
-    padding: 0; }
+    margin: 0; }
 
   footer div ul li a {
-    padding: 0;
+    margin: 0;
     font-size: 24px;
     height: 110px;
     line-height: 110px; } }
