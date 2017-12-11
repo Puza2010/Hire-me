@@ -868,7 +868,7 @@ footer ul li a {
     padding-top: 5vh; }
 
   .project1, .project2, .project3, .project4 {
-    width: 45vw;
+    width: 35vw;
     height: 50vw; }
 
   /* ABOUT */
@@ -887,7 +887,7 @@ footer ul li a {
     height: 110px;
     line-height: 110px;
     margin: 0;
-    padding-left: 40px; }
+    padding-left: 0px; }
 
   footer {
     height: 110px;
@@ -896,7 +896,7 @@ footer ul li a {
 
   footer div ul li a {
     margin: 0;
-    padding-right: 40px;
+    padding-right: 0px;
     font-size: 24px;
     height: 110px;
     line-height: 110px; } }
