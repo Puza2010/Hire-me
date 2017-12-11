@@ -835,7 +835,7 @@ footer ul li a {
 
   /* HEADER */
   header {
-    background-color: orange;
+    background-color: green;
     height: 110px;
     margin: 0; }
 
@@ -914,10 +914,12 @@ footer ul li a {
 
   .about p {
     margin: 0;
-    margin-left: 5vh; }
+    margin-left: 5vh;
+    padding-bottom: 20px; }
 
   .myPhoto {
     float: none;
+    margin-left: 5vh;
     width: auto;
     max-width: 100%;
     height: auto; }
