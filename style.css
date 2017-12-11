@@ -876,10 +876,12 @@ footer ul li a {
     font-size: 48px; }
 
   .myPhoto {
-    float: none;
-    text-align: center;
-    margin: 0 auto;
-    height: auto; }
+    float: right;
+    width: 50vh;
+    height: 75vh; }
+
+  .text {
+    float: left; }
 
   /* FOOTER */
   .a-contact {
