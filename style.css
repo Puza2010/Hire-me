@@ -308,7 +308,8 @@ header div ul li a {
   box-shadow: 0px 2px 5px 0px grey; }
 
 .text {
-  float: left; }
+  float: left;
+  padding-bottom: 20px; }
 
 .about h1 {
   margin-top: 0;
@@ -322,7 +323,6 @@ header div ul li a {
 .about p {
   letter-spacing: 1px;
   margin: 0 10vh;
-  padding-bottom: 20px;
   font-size: 22px;
   font-family: "Roboto Condensed", sans-serif; }
 
@@ -836,7 +836,7 @@ footer ul li a {
 
   /* HEADER */
   header {
-    background-color: orange;
+    background-color: green;
     height: 110px;
     margin: 0; }
 
@@ -920,13 +920,18 @@ footer ul li a {
     float: none;
     width: auto;
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    padding-bottom: 20px; }
 
   .photo-div {
     text-align: center; }
 
+  .text-div {
+    text-align: center; }
+
   .text {
-    float: none; }
+    float: none;
+    padding-bottom: 20px; }
 
   /* FOOTER */
   .a-contact {
