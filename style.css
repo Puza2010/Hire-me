@@ -308,8 +308,7 @@ header div ul li a {
   box-shadow: 0px 2px 5px 0px grey; }
 
 .text {
-  float: left;
-  padding-bottom: 20px; }
+  float: left; }
 
 .about h1 {
   margin-top: 0;
@@ -798,45 +797,8 @@ footer ul li a {
   .col-m-12 {
     width: 100%; }
 
-  .col-offset-m-0 {
-    margin-left: 0; }
-
-  .col-offset-m-1 {
-    margin-left: 8.33%; }
-
-  .col-offset-m-2 {
-    margin-left: 16.66%; }
-
-  .col-offset-m-3 {
-    margin-left: 25%; }
-
-  .col-offset-m-4 {
-    margin-left: 33.33%; }
-
-  .col-offset-m-5 {
-    margin-left: 41.66%; }
-
-  .col-offset-m-6 {
-    margin-left: 50%; }
-
-  .col-offset-m-7 {
-    margin-left: 58.33%; }
-
-  .col-offset-m-8 {
-    margin-left: 66.66%; }
-
-  .col-offset-m-9 {
-    margin-left: 75%; }
-
-  .col-offset-m-10 {
-    margin-left: 83.33%; }
-
-  .col-offset-m-11 {
-    margin-left: 91.66%; }
-
   /* HEADER */
   header {
-    background-color: orange;
     height: 110px;
     margin: 0; }
 
@@ -913,20 +875,11 @@ footer ul li a {
   .about h1 {
     font-size: 48px; }
 
-  .about p {
-    margin: 0; }
-
   .myPhoto {
-    float: right;
-    height: auto;
-    padding-bottom: 20px; }
-
-  .photo-div {
-    text-align: center; }
-
-  .text {
-    float: left;
-    padding-bottom: 20px; }
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    height: auto; }
 
   /* FOOTER */
   .a-contact {
