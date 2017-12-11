@@ -836,7 +836,7 @@ footer ul li a {
 
   /* HEADER */
   header {
-    background-color: green;
+    background-color: orange;
     height: 110px;
     margin: 0; }
 
@@ -918,15 +918,10 @@ footer ul li a {
 
   .myPhoto {
     float: none;
-    width: auto;
-    max-width: 100%;
     height: auto;
     padding-bottom: 20px; }
 
   .photo-div {
-    text-align: center; }
-
-  .text-div {
     text-align: center; }
 
   .text {
