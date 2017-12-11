@@ -322,6 +322,7 @@ header div ul li a {
 .about p {
   letter-spacing: 1px;
   margin: 0 10vh;
+  padding-bottom: 20px;
   font-size: 22px;
   font-family: "Roboto Condensed", sans-serif; }
 
@@ -835,7 +836,7 @@ footer ul li a {
 
   /* HEADER */
   header {
-    background-color: orange;
+    background-color: green;
     height: 110px;
     margin: 0; }
 
@@ -913,8 +914,7 @@ footer ul li a {
     font-size: 48px; }
 
   .about p {
-    margin: 0;
-    padding-bottom: 20px; }
+    margin: 0; }
 
   .myPhoto {
     float: none;
@@ -923,7 +923,7 @@ footer ul li a {
     height: auto; }
 
   .photo-div {
-    text-align: cener; }
+    text-align: center; }
 
   .text {
     float: none; }
