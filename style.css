@@ -836,7 +836,7 @@ footer ul li a {
 
   /* HEADER */
   header {
-    background-color: orange;
+    background-color: green;
     height: 110px;
     margin: 0; }
 
@@ -919,14 +919,14 @@ footer ul li a {
   .myPhoto {
     float: none;
     height: auto;
-    padding-bottom: 20px; }
+    padding-bottom: 0; }
 
   .photo-div {
     text-align: center; }
 
   .text {
     float: none;
-    padding-bottom: 20px; }
+    padding-bottom: 0; }
 
   /* FOOTER */
   .a-contact {
