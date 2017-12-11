@@ -878,8 +878,8 @@ footer ul li a {
 
   .myPhoto {
     float: right;
-    width: 50vh;
-    height: 75vh; }
+    width: 100vh;
+    height: 100vh; }
 
   .text {
     float: left; }
