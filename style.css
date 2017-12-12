@@ -799,7 +799,7 @@ footer ul li a {
 
   /* HEADER */
   header {
-    background-color: green;
+    background-color: orange;
     height: 110px;
     margin: 0; }
 
@@ -875,6 +875,9 @@ footer ul li a {
   /* ABOUT */
   .about h1 {
     font-size: 48px; }
+
+  .photo-div {
+    text-align: center; }
 
   .myPhoto {
     float: none;
