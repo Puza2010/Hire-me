@@ -760,7 +760,7 @@ footer ul li a {
   .about {
     height: auto;
     overflow: auto; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width: 1920px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1920px) {
   /* High resolution phones and tablets */
   .col-m-1 {
     width: 8.33%; }
