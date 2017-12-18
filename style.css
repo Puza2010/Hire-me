@@ -1052,7 +1052,7 @@ footer ul li a {
       bottom: 20px;
       left: 0;
       width: 0%;
-      border-bottom: 1px solid black;
+      border-bottom: 0;
       transition: 0.4s; }
     header div ul li a:hover:after {
       width: 100%; }
@@ -1292,7 +1292,7 @@ footer ul li a {
       bottom: 20px;
       left: 0;
       width: 0%;
-      border-bottom: 1px solid black;
+      border-bottom: 0;
       transition: 0.4s; }
     footer ul li a:hover:after {
       width: 100%; } }
