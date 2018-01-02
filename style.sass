@@ -654,7 +654,7 @@ footer
 
 	.about
 		height: auto
-		overflow: auto
+		overflow: visible
 
 @media(min-width: 992px) and (max-width: 1199px)
 	
@@ -733,7 +733,12 @@ footer
 
 	.about
 		height: auto
-		overflow: auto
+		overflow: visible
+
+@media(min-width: 992px) and (max-width: 1199px) and (orientation : portrait)
+	.project1
+		width: 45vw
+		height: 50vw
 
 @media only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width:1920px)
 	/* High resolution phones and tablets */
@@ -1186,7 +1191,7 @@ footer
 	/* ABOUT SECTION */
 
 	.about
-		height: 80vh
+		height: 800px
 		background-color: $grey
 		box-shadow: 0px 2px 5px 0px grey
 
@@ -1232,7 +1237,7 @@ footer
 		margin-left: 20px
 		letter-spacing: 2px
 		font-family: $simple
-		line-height: 70px
+		line-height: 110px
 		display: block
 		color: black
 		text-decoration: none
