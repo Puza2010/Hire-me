@@ -578,7 +578,10 @@ footer ul li a {
 
   footer ul {
     float: none;
-    text-align: center; } }
+    text-align: center; }
+
+  footer ul li a:after {
+    border-bottom: 0; } }
 @media(min-width: 768px) and (max-width: 991px) {
   .col-s-1 {
     width: 8.33%; }
@@ -848,7 +851,7 @@ footer ul li a {
   header div a {
     font-size: 24px;
     height: 70px;
-    line-height: 110px;
+    line-height: 70px;
     margin: 0;
     padding-left: 40px; }
 
@@ -856,8 +859,8 @@ footer ul li a {
     margin: 0;
     padding-right: 40px;
     font-size: 24px;
-    height: 110px;
-    line-height: 110px; }
+    height: 70px;
+    line-height: 70px; }
     header div ul li a:after {
       border-bottom: 0; }
 
