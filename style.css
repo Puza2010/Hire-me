@@ -464,8 +464,11 @@ footer ul li a {
     margin-left: 91.66%; }
 
   /* HEADER */
-  header div ul li a:after {
-    border-bottom: 0; }
+  header div ul li a {
+    font-size: 18px;
+    padding: 0; }
+    header div ul li a:after {
+      border-bottom: 0; }
 
   #dropdown {
     display: none; }
@@ -474,12 +477,15 @@ footer ul li a {
     float: none; }
 
   header div ul li {
+    padding: 0;
     display: block;
     background-color: white;
     border-bottom: solid 1px black;
     text-align: center; }
 
   header div a {
+    font-size: 18px;
+    padding: 0;
     float: none;
     display: none;
     margin: 0 auto; }
@@ -504,7 +510,7 @@ footer ul li a {
   .jumbotron h1 {
     padding-top: 50vh;
     margin: 0 auto;
-    font-size: 40px; }
+    font-size: 30px; }
 
   .button {
     margin: 20px 0; }
@@ -532,16 +538,25 @@ footer ul li a {
     clear: both;
     display: block; }
 
+  .logo h2 {
+    font-size: 30px; }
+
+  .logo img {
+    height: 50px; }
+
   /* PROJECTS SECTION */
   .project-section {
     padding-top: 5vh; }
+
+  .project-section h1 {
+    font-size: 30px; }
 
   .project-div {
     padding-top: 5vh; }
 
   .project1, .project2, .project3, .project4 {
-    width: 25vw;
-    height: 25vw; }
+    width: 40vw;
+    height: 40vw; }
 
   /* ABOUT SECTION */
   .about {
@@ -549,19 +564,22 @@ footer ul li a {
     height: auto; }
 
   .about h1 {
-    padding-top: 15vh; }
+    padding-top: 15vh;
+    font-size: 30px; }
 
   .about p {
-    margin: 0 5vh; }
+    margin: 0 5vh;
+    font-size: 20px; }
 
   .photo-div {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 20px; }
 
   .myPhoto {
     float: none;
     text-align: center;
     margin: 0 auto;
-    height: auto; }
+    height: 400px; }
 
   .text {
     width: auto;
@@ -655,6 +673,12 @@ footer ul li a {
   .col-offset-s-11 {
     margin-left: 91.66%; }
 
+  header div ul li a {
+    font-size: 18px;
+    padding: 0; }
+    header div ul li a:after {
+      border-bottom: 0; }
+
   /* CREDENSIALS SECTION */
   .left-box, .right-box {
     height: auto;
@@ -690,7 +714,16 @@ footer ul li a {
     float: none;
     text-align: center;
     margin: 0 auto;
-    height: auto; } }
+    height: auto; }
+
+  footer div ul li a {
+    margin: 0;
+    padding-right: 0px;
+    font-size: 18px;
+    height: 70px;
+    line-height: 70px; }
+    footer div ul li a:after {
+      border-bottom: 0; } }
 @media(min-width: 992px) and (max-width: 1199px) {
   .col-s-1 {
     width: 8.33%; }
@@ -764,6 +797,12 @@ footer ul li a {
   .col-offset-s-11 {
     margin-left: 91.66%; }
 
+  header div ul li a {
+    font-size: 18px;
+    padding: 0; }
+    header div ul li a:after {
+      border-bottom: 0; }
+
   /* CREDENSIALS SECTION */
   .left-box, .right-box {
     height: auto;
@@ -799,7 +838,16 @@ footer ul li a {
     float: none;
     text-align: center;
     margin: 0 auto;
-    height: auto; } }
+    height: auto; }
+
+  footer div ul li a {
+    margin: 0;
+    padding-right: 0px;
+    font-size: 18px;
+    height: 70px;
+    line-height: 70px; }
+    footer div ul li a:after {
+      border-bottom: 0; } }
 @media screen and (orientation: portrait) and (min-width: 992px) and (max-width: 1199px) {
   /* Tablets in portrait orientation */
   .project1, .project2, .project3, .project4 {
@@ -849,16 +897,16 @@ footer ul li a {
     margin: 0; }
 
   header div a {
-    font-size: 24px;
+    padding: 0;
+    font-size: 18px;
     height: 70px;
     line-height: 70px;
-    margin: 0;
-    padding-left: 40px; }
+    margin: 0; }
 
   header div ul li a {
+    padding: 0;
     margin: 0;
-    padding-right: 40px;
-    font-size: 24px;
+    font-size: 18px;
     height: 70px;
     line-height: 70px; }
     header div ul li a:after {
@@ -956,7 +1004,9 @@ footer ul li a {
     padding-right: 0px;
     font-size: 18px;
     height: 70px;
-    line-height: 70px; } }
+    line-height: 70px; }
+    footer div ul li a:after {
+      border-bottom: 0; } }
 @media screen and (orientation: landscape) and (max-width: 991px) {
   * {
     box-sizing: border-box; }
