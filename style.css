@@ -600,7 +600,7 @@ footer ul li a {
 
   footer ul li a:after {
     border-bottom: 0; } }
-@media(min-width: 768px) and (max-width: 991px) and (orientation:portrait) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .col-s-1 {
     width: 8.33%; }
 
@@ -675,7 +675,7 @@ footer ul li a {
 
   header div ul li a {
     font-size: 18px;
-    padding: 0; }
+    padding: 0 20px; }
     header div ul li a:after {
       border-bottom: 0; }
 
@@ -699,161 +699,39 @@ footer ul li a {
     clear: both;
     display: block; }
 
-  /* ABOUT SECTION */
-  .about {
-    height: auto;
-    overflow: auto; }
-
-  .about p {
-    margin: 0 5vh; }
-
-  .photo-div {
-    text-align: center; }
-
-  .myPhoto {
-    float: none;
-    text-align: center;
-    margin: 0 auto;
-    height: auto; }
-
-  footer div ul li a {
-    margin: 0;
-    padding-right: 0px;
-    font-size: 18px;
-    height: 70px;
-    line-height: 70px; }
-    footer div ul li a:after {
-      border-bottom: 0; } }
-@media(min-width: 992px) and (max-width: 1199px) and (orientation:portrait) {
-  .col-s-1 {
-    width: 8.33%; }
-
-  .col-s-2 {
-    width: 16.66%; }
-
-  .col-s-3 {
-    width: 25%; }
-
-  .col-s-4 {
-    width: 33.33%; }
-
-  .col-s-5 {
-    width: 41.66%; }
-
-  .col-s-6 {
-    width: 50%; }
-
-  .col-s-7 {
-    width: 58.33%; }
-
-  .col-s-8 {
-    width: 66.66%; }
-
-  .col-s-9 {
-    width: 75%; }
-
-  .col-s-10 {
-    width: 83.33%; }
-
-  .col-s-11 {
-    width: 91.66%; }
-
-  .col-s-12 {
-    width: 100%; }
-
-  .col-offset-s-0 {
-    margin-left: 0; }
-
-  .col-offset-s-1 {
-    margin-left: 8.33%; }
-
-  .col-offset-s-2 {
-    margin-left: 16.66%; }
-
-  .col-offset-s-3 {
-    margin-left: 25%; }
-
-  .col-offset-s-4 {
-    margin-left: 33.33%; }
-
-  .col-offset-s-5 {
-    margin-left: 41.66%; }
-
-  .col-offset-s-6 {
-    margin-left: 50%; }
-
-  .col-offset-s-7 {
-    margin-left: 58.33%; }
-
-  .col-offset-s-8 {
-    margin-left: 66.66%; }
-
-  .col-offset-s-9 {
-    margin-left: 75%; }
-
-  .col-offset-s-10 {
-    margin-left: 83.33%; }
-
-  .col-offset-s-11 {
-    margin-left: 91.66%; }
-
-  header div ul li a {
-    font-size: 18px;
-    padding: 0; }
-    header div ul li a:after {
-      border-bottom: 0; }
-
-  /* CREDENSIALS SECTION */
-  .left-box, .right-box {
-    height: auto;
-    display: block;
-    margin-bottom: 5px; }
-
-  .arrows {
-    display: none; }
-
-  .arrows-mobile {
-    text-align: center;
-    clear: both;
-    display: block;
-    height: 100px; }
-
-  .logo {
-    padding-top: 10px;
-    clear: both;
-    display: block; }
-
-  /* ABOUT SECTION */
-  .about {
-    height: auto;
-    overflow: auto; }
-
-  .about p {
-    margin: 0 5vh; }
-
-  .photo-div {
-    text-align: center; }
-
-  .myPhoto {
-    float: none;
-    text-align: center;
-    margin: 0 auto;
-    height: auto; }
-
-  footer div ul li a {
-    margin: 0;
-    padding-right: 0px;
-    font-size: 18px;
-    height: 70px;
-    line-height: 70px; }
-    footer div ul li a:after {
-      border-bottom: 0; } }
-@media screen and (orientation: portrait) and (min-width: 992px) and (max-width: 1199px) {
-  /* Tablets in portrait orientation */
+  /* PROJECTS SECTION */
   .project1, .project2, .project3, .project4 {
-    width: 45vw;
-    height: 50vw; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width: 1920px) and (orientation: portrait) {
+    margin-top: 30px;
+    width: 25vh;
+    height: 25vh; }
+
+  /* ABOUT SECTION */
+  .about {
+    height: auto;
+    overflow: auto; }
+
+  .about p {
+    margin: 0 5vh; }
+
+  .photo-div {
+    text-align: center;
+    padding-bottom: 20px; }
+
+  .myPhoto {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    height: 600px; }
+
+  footer div ul li a {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 18px;
+    height: 70px;
+    line-height: 70px; }
+    footer div ul li a:after {
+      border-bottom: 0; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width: 1199px) and (orientation: portrait) {
   /* High resolution phones and tablets */
   .col-m-1 {
     width: 8.33%; }
@@ -1101,8 +979,7 @@ footer ul li a {
   /* START SECTION */
   .jumbotron {
     width: 100%;
-    height: auto;
-    overflow: auto;
+    height: 100vh;
     background-image: url("images/start.png");
     background-size: cover;
     background-position: center; }
@@ -1118,7 +995,6 @@ footer ul li a {
 
   .btn {
     margin-top: -10px;
-    margin-bottom: 10vh;
     font-size: 20px;
     letter-spacing: 1px;
     text-decoration: none;
