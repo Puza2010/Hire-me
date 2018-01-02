@@ -390,7 +390,7 @@ footer ul li a {
   footer ul li a:hover:after {
     width: 100%; }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (orientation: portrait) {
   .col-s-1 {
     width: 8.33%; }
 
@@ -600,7 +600,7 @@ footer ul li a {
 
   footer ul li a:after {
     border-bottom: 0; } }
-@media(min-width: 768px) and (max-width: 991px) {
+@media(min-width: 768px) and (max-width: 991px) and (orientation:portrait) {
   .col-s-1 {
     width: 8.33%; }
 
@@ -724,7 +724,7 @@ footer ul li a {
     line-height: 70px; }
     footer div ul li a:after {
       border-bottom: 0; } }
-@media(min-width: 992px) and (max-width: 1199px) {
+@media(min-width: 992px) and (max-width: 1199px) and (orientation:portrait) {
   .col-s-1 {
     width: 8.33%; }
 
@@ -853,7 +853,7 @@ footer ul li a {
   .project1, .project2, .project3, .project4 {
     width: 45vw;
     height: 50vw; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width: 1920px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 3) and (max-device-width: 1920px) and (orientation: portrait) {
   /* High resolution phones and tablets */
   .col-m-1 {
     width: 8.33%; }
@@ -1007,7 +1007,7 @@ footer ul li a {
     line-height: 70px; }
     footer div ul li a:after {
       border-bottom: 0; } }
-@media screen and (orientation: landscape) and (max-width: 991px) {
+@media screen and (orientation: landscape) and (max-width: 1199px) {
   * {
     box-sizing: border-box; }
 
@@ -1027,78 +1027,6 @@ footer ul li a {
     display: table;
     clear: both; }
 
-  .col-s-1 {
-    width: 8.33%; }
-
-  .col-s-2 {
-    width: 16.66%; }
-
-  .col-s-3 {
-    width: 25%; }
-
-  .col-s-4 {
-    width: 33.33%; }
-
-  .col-s-5 {
-    width: 41.66%; }
-
-  .col-s-6 {
-    width: 50%; }
-
-  .col-s-7 {
-    width: 58.33%; }
-
-  .col-s-8 {
-    width: 66.66%; }
-
-  .col-s-9 {
-    width: 75%; }
-
-  .col-s-10 {
-    width: 83.33%; }
-
-  .col-s-11 {
-    width: 91.66%; }
-
-  .col-s-12 {
-    width: 100%; }
-
-  .col-offset-s-0 {
-    margin-left: 0; }
-
-  .col-offset-s-1 {
-    margin-left: 8.33%; }
-
-  .col-offset-s-2 {
-    margin-left: 16.66%; }
-
-  .col-offset-s-3 {
-    margin-left: 25%; }
-
-  .col-offset-s-4 {
-    margin-left: 33.33%; }
-
-  .col-offset-s-5 {
-    margin-left: 41.66%; }
-
-  .col-offset-s-6 {
-    margin-left: 50%; }
-
-  .col-offset-s-7 {
-    margin-left: 58.33%; }
-
-  .col-offset-s-8 {
-    margin-left: 66.66%; }
-
-  .col-offset-s-9 {
-    margin-left: 75%; }
-
-  .col-offset-s-10 {
-    margin-left: 83.33%; }
-
-  .col-offset-s-11 {
-    margin-left: 91.66%; }
-
   /* HEADER */
   header {
     width: 100%;
@@ -1111,6 +1039,7 @@ footer ul li a {
     box-shadow: 0px 1px 5px grey; }
 
   header div a {
+    font-size: 18px;
     font-family: "Roboto Condensed", sans-serif;
     float: left;
     margin-left: 20px;
@@ -1133,6 +1062,7 @@ footer ul li a {
     text-align: center; }
 
   header div ul li a {
+    font-size: 18px;
     font-family: "Roboto Condensed", sans-serif;
     position: relative;
     line-height: 70px;
@@ -1178,7 +1108,7 @@ footer ul li a {
 
   .jumbotron h1 {
     letter-spacing: 1px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: normal;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -1186,6 +1116,7 @@ footer ul li a {
     padding-top: 55vh; }
 
   .btn {
+    margin-top: -10px;
     font-size: 20px;
     letter-spacing: 1px;
     text-decoration: none;
@@ -1210,7 +1141,7 @@ footer ul li a {
 
   /* CREDENSIALS SECTION */
   .credensials h1 {
-    font-size: 32px;
+    font-size: 30px;
     letter-spacing: 3px;
     text-align: center;
     margin-top: 15vh;
@@ -1234,48 +1165,58 @@ footer ul li a {
       outline-color: black;
       outline-width: 2px; }
 
+  .col-5 {
+    margin: 2% 10%;
+    width: 80%; }
+
   .left-box p, .right-box p {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
     letter-spacing: 1px; }
 
   .arrows {
-    float: left;
-    text-align: center; }
+    display: none; }
 
   .arrows-mobile {
-    display: none; }
+    text-align: center;
+    clear: both;
+    display: block;
+    height: 100px; }
 
   .fa-exchange {
     line-height: 35vh;
     color: grey; }
 
   .credensials h2 {
+    font-size: 25px;
     letter-spacing: 2px;
     text-align: center; }
 
   .logo {
     font-family: "Roboto", sans-serif;
-    text-align: center; }
+    text-align: center;
+    clear: both;
+    display: block; }
 
   .logo h2 {
     font-size: 28px;
-    padding-top: 5vh; }
+    padding-top: 50px; }
 
   .logo img {
-    height: 80px; }
+    height: 50px; }
 
   /* PROJECTS SECTION */
   .project-section {
     margin-top: 10vh;
     padding-top: 5vh;
-    height: 600px;
+    height: auto;
+    overflow: auto;
     background-color: #5b5b59; }
 
   .project-section h1 {
     letter-spacing: 3px;
     border-bottom: solid 2px #EAEEF1;
-    font-size: 32px;
+    font-size: 30px;
     color: white;
     font-family: "Roboto", sans-serif;
     text-align: center; }
@@ -1290,7 +1231,7 @@ footer ul li a {
     background-image: url("images/game.png");
     background-size: cover;
     background-position: center;
-    width: 25vw;
+    width: 35vw;
     height: 15vw;
     outline-style: solid;
     outline-color: black;
@@ -1311,7 +1252,8 @@ footer ul li a {
 
   /* ABOUT SECTION */
   .about {
-    height: 800px;
+    height: auto;
+    overflow: auto;
     background-color: #EAEEF1;
     box-shadow: 0px 2px 5px 0px grey; }
 
@@ -1320,9 +1262,8 @@ footer ul li a {
     padding-bottom: 20px; }
 
   .about h1 {
-    margin-top: 0;
+    padding-top: 10vh;
     letter-spacing: 3px;
-    padding-top: 5vh;
     font-size: 32px;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -1331,7 +1272,7 @@ footer ul li a {
   .about p {
     letter-spacing: 1px;
     margin: 0 10vh;
-    font-size: 22px;
+    font-size: 20px;
     font-family: "Roboto Condensed", sans-serif; }
 
   .myPhoto {
@@ -1356,7 +1297,7 @@ footer ul li a {
     margin-left: 20px;
     letter-spacing: 2px;
     font-family: "Roboto Condensed", sans-serif;
-    line-height: 110px;
+    line-height: 70px;
     display: block;
     color: black;
     text-decoration: none;
@@ -1366,7 +1307,7 @@ footer ul li a {
     float: right;
     margin: 0;
     padding: 0;
-    line-height: 110px;
+    line-height: 70px;
     list-style-type: none; }
 
   footer ul li {
