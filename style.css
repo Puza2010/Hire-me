@@ -759,8 +759,11 @@ footer ul li a {
   /* ABOUT SECTION */
   .about {
     height: auto;
-    overflow: visible; } }
-@media(min-width: 992px) and (max-width: 1199px) and (orientation : portrait) {
+    overflow: visible; }
+
+  .myPhoto {
+    height: 400px; } }
+@media screen and (orientation: portrait) and (min-width: 992px) and (max-width: 1199px) {
   .project1, .project2, .project3, .project4 {
     width: 45vw;
     height: 50vw; } }
@@ -1260,7 +1263,7 @@ footer ul li a {
     margin-left: 20px;
     letter-spacing: 2px;
     font-family: "Roboto Condensed", sans-serif;
-    line-height: 10px;
+    line-height: 110px;
     display: block;
     color: black;
     text-decoration: none;
