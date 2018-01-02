@@ -261,7 +261,8 @@ header div ul li a {
 .project-section {
   margin-top: 10vh;
   padding-top: 5vh;
-  height: 100vh;
+  height: auto;
+  overflow: auto;
   background-color: #5b5b59; }
 
 .project-section h1 {
@@ -274,7 +275,7 @@ header div ul li a {
 
 .project-div {
   float: left;
-  margin-bottom: 5vh; }
+  margin-bottom: 10vh; }
 
 .project1, .project2, .project3, .project4 {
   cursor: pointer;
@@ -484,6 +485,7 @@ footer ul li a {
     margin: 0 auto; }
 
   #mobile {
+    font-size: 18px;
     background-color: white;
     border-bottom: solid 1px black;
     display: block;
@@ -497,7 +499,6 @@ footer ul li a {
     display: block; }
 
   .jumbotron {
-    height: auto;
     padding-bottom: 20px; }
 
   .jumbotron h1 {
@@ -549,6 +550,18 @@ footer ul li a {
 
   .about h1 {
     padding-top: 15vh; }
+
+  .about p {
+    margin: 0 5vh; }
+
+  .photo-div {
+    text-align: center; }
+
+  .myPhoto {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    height: auto; }
 
   .text {
     width: auto;
@@ -662,7 +675,19 @@ footer ul li a {
   /* ABOUT SECTION */
   .about {
     height: auto;
-    overflow: visible; } }
+    overflow: auto; }
+
+  .about p {
+    margin: 0 5vh; }
+
+  .photo-div {
+    text-align: center; }
+
+  .myPhoto {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    height: auto; } }
 @media(min-width: 992px) and (max-width: 1199px) {
   .col-s-1 {
     width: 8.33%; }
@@ -759,8 +784,21 @@ footer ul li a {
   /* ABOUT SECTION */
   .about {
     height: auto;
-    overflow: visible; } }
+    overflow: auto; }
+
+  .about p {
+    margin: 0 5vh; }
+
+  .photo-div {
+    text-align: center; }
+
+  .myPhoto {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    height: auto; } }
 @media screen and (orientation: portrait) and (min-width: 992px) and (max-width: 1199px) {
+  /* Tablets in portrait orientation */
   .project1, .project2, .project3, .project4 {
     width: 45vw;
     height: 50vw; } }
@@ -804,12 +842,12 @@ footer ul li a {
 
   /* HEADER */
   header {
-    height: 110px;
+    height: 70px;
     margin: 0; }
 
   header div a {
     font-size: 24px;
-    height: 110px;
+    height: 70px;
     line-height: 110px;
     margin: 0;
     padding-left: 40px; }
@@ -825,12 +863,12 @@ footer ul li a {
 
   /* START SECTION */
   .jumbotron h1 {
-    font-size: 80px; }
+    font-size: 30px; }
 
   .btn {
     font-weight: lighter;
-    font-size: 60px;
-    padding: 30px 80px; }
+    font-size: 30px;
+    padding: 10px 30px; }
 
   /* CREDENSIALS SECTION */
   .credensials {
@@ -838,79 +876,84 @@ footer ul li a {
     margin-bottom: 10vh; }
 
   .credensials h1 {
-    font-size: 48px; }
+    font-size: 30px; }
 
   .credensials h2 {
-    font-size: 40px; }
+    font-size: 25px; }
 
   .left-box {
-    margin-bottom: 50px; }
+    margin-bottom: 10px; }
 
   .right-box {
-    margin-top: 50px; }
+    margin-top: 10px; }
 
   .left-box p, .right-box p {
-    font-size: 30px; }
+    font-size: 20px; }
 
   .btn-mobile {
-    font-size: 30px; }
+    font-size: 20px; }
 
   .arrows {
     padding: 50px 0; }
 
   .logo h2 {
-    font-size: 40px; }
+    font-size: 30px; }
+
+  .logo img {
+    height: 50px; }
 
   /* PROJECTS SECTION */
   .project-section {
     margin-top: 10vh; }
 
   .project-section h1 {
-    font-size: 48px;
+    font-size: 30px;
     margin-top: 10vh; }
 
   .project-div {
     padding-top: 5vh; }
 
   .project1, .project2, .project3, .project4 {
-    width: 45vw;
-    height: 50vw; }
+    width: 40vw;
+    height: 40vw; }
 
   /* ABOUT */
   .about h1 {
-    font-size: 48px; }
+    font-size: 30px; }
 
   .about p {
-    margin: 0 5vh; }
+    margin: 0 5vh;
+    font-size: 20px; }
 
   .photo-div {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 20px; }
 
   .myPhoto {
     float: none;
     text-align: center;
     margin: 0 auto;
-    height: auto; }
+    height: 400px; }
 
   /* FOOTER */
   .a-contact {
-    font-size: 24px;
-    height: 110px;
-    line-height: 110px;
+    font-size: 20px;
+    height: 70px;
+    line-height: 70px;
     margin: 0;
     padding-left: 40px; }
 
   footer {
-    height: 110px;
-    line-height: 110px;
+    height: 70px;
+    line-height: 70px;
     margin: 0; }
 
   footer div ul li a {
     margin: 0;
-    padding-right: 40px;
-    font-size: 24px;
-    height: 110px;
-    line-height: 110px; } }
+    padding-right: 0px;
+    font-size: 18px;
+    height: 70px;
+    line-height: 70px; } }
 @media screen and (orientation: landscape) and (max-width: 991px) {
   * {
     box-sizing: border-box; }

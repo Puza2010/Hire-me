@@ -259,7 +259,8 @@ header
 .project-section
 	margin-top: 10vh
 	padding-top: 5vh
-	height: 100vh
+	height: auto
+	overflow: auto
 	background-color: #5b5b59
 
 .project-section h1
@@ -272,7 +273,7 @@ header
 
 .project-div
 	float: left
-	margin-bottom: 5vh
+	margin-bottom: 10vh
 
 .project1
 	cursor: pointer
@@ -398,8 +399,7 @@ footer
 				&:hover:after
 					width: 100%
 
-@media (max-width: 767px)
-
+@media (max-width:767px)
 	.col-s-1 
 		width: 8.33%
 	.col-s-2 
@@ -485,6 +485,7 @@ footer
 				margin: 0 auto
 
 	#mobile
+		font-size: 18px
 		background-color: rgb(255,255,255)
 		border-bottom: solid 1px black
 		display: block
@@ -498,7 +499,6 @@ footer
 		display: block
 
 	.jumbotron
-		height: auto
 		padding-bottom: 20px
 
 	.jumbotron h1 
@@ -554,6 +554,18 @@ footer
 	.about
 		h1
 			padding-top: 15vh
+
+	.about p
+		margin: 0 5vh
+
+	.photo-div
+		text-align: center
+
+	.myPhoto
+		float: none
+		text-align: center
+		margin: 0 auto
+		height: auto
 
 	.text
 		width: auto
@@ -654,7 +666,19 @@ footer
 
 	.about
 		height: auto
-		overflow: visible
+		overflow: auto
+
+	.about p
+		margin: 0 5vh
+
+	.photo-div
+		text-align: center
+
+	.myPhoto
+		float: none
+		text-align: center
+		margin: 0 auto
+		height: auto
 
 @media(min-width: 992px) and (max-width: 1199px)
 	
@@ -733,9 +757,22 @@ footer
 
 	.about
 		height: auto
-		overflow: visible
+		overflow: auto
+
+	.about p
+		margin: 0 5vh
+
+	.photo-div
+		text-align: center
+
+	.myPhoto
+		float: none
+		text-align: center
+		margin: 0 auto
+		height: auto
 
 @media screen and (orientation:portrait) and (min-width: 992px) and (max-width: 1199px)
+	/* Tablets in portrait orientation */
 	.project1
 		width: 45vw
 		height: 50vw
@@ -770,14 +807,14 @@ footer
 	/* HEADER */
 
 	header
-		height: 110px
+		height: 70px
 		margin: 0
 
 	header
 		div
 			a
 				font-size: 24px
-				height: 110px
+				height: 70px
 				line-height: 110px
 				margin: 0
 				padding-left: 40px
@@ -798,12 +835,12 @@ footer
 	/* START SECTION */
 
 	.jumbotron h1
-		font-size: 80px
+		font-size: 30px
 
 	.btn
 		font-weight: lighter
-		font-size: 60px
-		padding: 30px 80px
+		font-size: 30px
+		padding: 10px 30px
 
 	/* CREDENSIALS SECTION */
 
@@ -812,28 +849,31 @@ footer
 		margin-bottom: 10vh
 
 	.credensials h1
-		font-size: 48px
+		font-size: 30px
 
 	.credensials h2
-		font-size: 40px
+		font-size: 25px
 
 	.left-box
-		margin-bottom: 50px
+		margin-bottom: 10px
 
 	.right-box
-		margin-top: 50px
+		margin-top: 10px
 
 	.left-box p, .right-box p
-		font-size: 30px
+		font-size: 20px
 
 	.btn-mobile
-		font-size: 30px
+		font-size: 20px
 
 	.arrows
 		padding: 50px 0
 
 	.logo h2
-		font-size: 40px
+		font-size: 30px
+
+	.logo img
+		height: 50px
 
 	/* PROJECTS SECTION */
 
@@ -841,45 +881,47 @@ footer
 		margin-top: 10vh
 
 	.project-section h1
-		font-size: 48px
+		font-size: 30px
 		margin-top: 10vh
 
 	.project-div
 		padding-top: 5vh
 
 	.project1
-		width: 45vw
-		height: 50vw
+		width: 40vw
+		height: 40vw
 
 	/* ABOUT */
 
 	.about h1
-		font-size: 48px
+		font-size: 30px
 
 	.about p
 		margin: 0 5vh
+		font-size: 20px
 
 	.photo-div
 		text-align: center
+		margin-bottom: 20px
 
 	.myPhoto
 		float: none
 		text-align: center
 		margin: 0 auto
-		height: auto
+		height: 400px
 	
 	/* FOOTER */
 
 	.a-contact
-		font-size: 24px
-		height: 110px
-		line-height: 110px
+		font-size: 20px
+		height: 70px
+		line-height: 70px
 		margin: 0
 		padding-left: 40px
 
 	footer
-		height: 110px
-		line-height: 110px
+		height: 70px
+		line-height: 70px
 		margin: 0
 
 	footer
@@ -888,10 +930,10 @@ footer
 				li
 					a
 						margin: 0
-						padding-right: 40px
-						font-size: 24px
-						height: 110px
-						line-height: 110px
+						padding-right: 0px
+						font-size: 18px
+						height: 70px
+						line-height: 70px
 
 @media screen and (orientation:landscape) and (max-width: 991px)
 	*
