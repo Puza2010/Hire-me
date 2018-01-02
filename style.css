@@ -1101,7 +1101,8 @@ footer ul li a {
   /* START SECTION */
   .jumbotron {
     width: 100%;
-    height: 100vh;
+    height: auto;
+    overflow: auto;
     background-image: url("images/start.png");
     background-size: cover;
     background-position: center; }
@@ -1117,6 +1118,7 @@ footer ul li a {
 
   .btn {
     margin-top: -10px;
+    margin-bottom: 10vh;
     font-size: 20px;
     letter-spacing: 1px;
     text-decoration: none;
