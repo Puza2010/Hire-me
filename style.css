@@ -759,10 +759,7 @@ footer ul li a {
   /* ABOUT SECTION */
   .about {
     height: auto;
-    overflow: visible; }
-
-  .myPhoto {
-    height: 400px; } }
+    overflow: visible; } }
 @media screen and (orientation: portrait) and (min-width: 992px) and (max-width: 1199px) {
   .project1, .project2, .project3, .project4 {
     width: 45vw;
@@ -1243,7 +1240,7 @@ footer ul li a {
 
   .myPhoto {
     float: right;
-    height: 75%; }
+    height: 400px; }
 
   /* FOOTER */
   footer {
