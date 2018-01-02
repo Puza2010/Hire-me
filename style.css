@@ -1173,7 +1173,7 @@ footer ul li a {
   .project-section {
     margin-top: 10vh;
     padding-top: 5vh;
-    height: 100vh;
+    height: 600px;
     background-color: #5b5b59; }
 
   .project-section h1 {
@@ -1270,6 +1270,7 @@ footer ul li a {
     float: right;
     margin: 0;
     padding: 0;
+    line-height: 110px;
     list-style-type: none; }
 
   footer ul li {
