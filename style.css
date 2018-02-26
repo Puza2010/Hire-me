@@ -239,7 +239,9 @@ header div ul li a {
   display: none; }
 
 .fa-exchange {
-  line-height: 35vh;
+  height: 290px;
+  line-height: 290px;
+  text-align: center;
   color: grey; }
 
 .credensials h2 {
