@@ -34,6 +34,10 @@ $(document).ready(function() {
 		window.open('https://puza2010.github.io/Project-Gif/');
 	});
 
+    $('.project5').click(function(){
+        window.open('https://puza2010.github.io/Chat/');
+    });
+
 	$('#github').click(function(){
 		window.open('https://github.com/Puza2010');
 	});
