@@ -279,7 +279,7 @@ header div ul li a {
   float: left;
   margin-bottom: 10vh; }
 
-.project1, .project2, .project3, .project4, .project5 {
+.project1, .project2, .project3, .project4, .project5, .project6 {
   cursor: pointer;
   margin: 0 auto;
   background-image: url("images/game.png");
@@ -290,7 +290,7 @@ header div ul li a {
   outline-style: solid;
   outline-color: black;
   outline-width: 1px; }
-  .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover {
+  .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover {
     outline: 2px;
     outline-style: solid;
     outline-color: black; }
@@ -306,6 +306,9 @@ header div ul li a {
 
 .project5 {
   background-image: url("images/chat.png"); }
+
+.project6 {
+  background-image: url("images/react-router.png"); }
 
 /* ABOUT SECTION */
 .about {
@@ -559,7 +562,7 @@ footer ul li a {
   .project-div {
     padding-top: 5vh; }
 
-  .project1, .project2, .project3, .project4, .project5 {
+  .project1, .project2, .project3, .project4, .project5, .project6 {
     width: 40vw;
     height: 40vw; }
 
@@ -705,7 +708,7 @@ footer ul li a {
     display: block; }
 
   /* PROJECTS SECTION */
-  .project1, .project2, .project3, .project4, .project5 {
+  .project1, .project2, .project3, .project4, .project5, .project6 {
     margin-top: 30px;
     width: 25vh;
     height: 25vh; }
@@ -847,7 +850,7 @@ footer ul li a {
   .project-div {
     padding-top: 5vh; }
 
-  .project1, .project2, .project3, .project4, .project5 {
+  .project1, .project2, .project3, .project4, .project5, .project6 {
     width: 40vw;
     height: 40vw; }
 
@@ -1108,7 +1111,7 @@ footer ul li a {
     float: left;
     margin-bottom: 5vh; }
 
-  .project1, .project2, .project3, .project4, .project5 {
+  .project1, .project2, .project3, .project4, .project5, .project6 {
     cursor: pointer;
     margin: 0 auto;
     background-image: url("images/game.png");
@@ -1119,7 +1122,7 @@ footer ul li a {
     outline-style: solid;
     outline-color: black;
     outline-width: 1px; }
-    .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover {
+    .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover, .project6:hover {
       outline: 2px;
       outline-style: solid;
       outline-color: black; }
@@ -1134,7 +1137,10 @@ footer ul li a {
     background-image: url("images/gif.png"); }
 
   .project5 {
-    background-image: url("images/gif.png"); }
+    background-image: url("images/chat.png"); }
+
+  .project6 {
+    background-image: url("images/react-router.png"); }
 
   /* ABOUT SECTION */
   .about {

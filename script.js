@@ -38,6 +38,10 @@ $(document).ready(function() {
         window.open('https://puza2010.github.io/Chat/');
     });
 
+    $('.project6').click(function(){
+        window.open('https://polar-fjord-61724.herokuapp.com/#/');
+    });
+
 	$('#github').click(function(){
 		window.open('https://github.com/Puza2010');
 	});
