@@ -35,7 +35,7 @@ $(document).ready(function() {
 	});
 
     $('.project5').click(function(){
-        window.open('https://puza2010.github.io/Chat/');
+        window.open('https://rocky-river-87414.herokuapp.com/');
     });
 
     $('.project6').click(function(){
